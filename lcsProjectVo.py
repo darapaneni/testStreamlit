@@ -183,5 +183,5 @@ elif selection == "Live Project":
 
 # Run the Streamlit app
 if __name__ == "__main__":
-    st.write("Use the sidebar to navigate through different sections of our platform.")
+    st.write(" ")
 
