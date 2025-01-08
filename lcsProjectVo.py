@@ -3,6 +3,12 @@ import streamlit as st
 
 import streamlit as st
 
+primaryColor = "#1E90FF"  # DodgerBlue
+backgroundColor = "#F0F8FF"  # AliceBlue
+secondaryBackgroundColor = "#E6E6FA"  # Lavender
+textColor = "#000000"  # Black
+font = "sans serif"
+
 # Sidebar for navigation
 st.sidebar.title("Landmark Consulting Services")
 selection = st.sidebar.radio("Go to", ["About Us", "Services", "Internships", "Live Project"])
