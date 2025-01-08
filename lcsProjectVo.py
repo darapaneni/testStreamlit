@@ -11,7 +11,7 @@ font = "sans serif"
 
 # Sidebar for navigation
 st.sidebar.title("Landmark Consulting Services")
-selection = st.sidebar.radio("Go to", ["About Us", "Services", "Internships", "Live Project"])
+selection = st.sidebar.radio(["About Us", "Services", "Internships", "Live Project"])
 
 # About Us Tab
 if selection == "About Us":
