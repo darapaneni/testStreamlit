@@ -11,7 +11,7 @@ font = "sans serif"
 
 # Sidebar for navigation
 st.sidebar.title("Landmark Consulting Services")
-selection = st.sidebar.radio(["About Us", "Services", "Internships", "Live Project"])
+selection = st.sidebar.radio(["About Us", "Services", "Products", "Internships", "Live Project"])
 
 # About Us Tab
 if selection == "About Us":
@@ -29,6 +29,38 @@ elif selection == "Services":
     - **On-Job Internships:** Provide opportunity to interns to contribute to our live projects where interns get to work on real-world problems.
     - **Technology solutions to real estate:** Property documentation etc.
     - **Legal solutions:** Help in Civil litigations, Criminal cases, family disputes, Legal documentations, Legal opinions.
+    """)
+
+# Products Tab
+elif selection == "Products":
+    st.title("Products")
+    st.write("""
+    LCS-InterviewPrep:
+
+    - **Overview**: LCS-InterviewPrep is an advanced software skills assessment platform designed to prepare candidates for technical interviews. It leverages the power of Generative AI and ChatGPT tools to provide a comprehensive and interactive learning experience.
+    -**Features** :
+    - AI-Driven Question Generation: Utilizes Generative AI to create diverse and challenging interview questions tailored to various programming languages and technical domains.
+    - Real-Time Feedback: Offers instant feedback on coding challenges and problem-solving exercises, helping candidates identify areas for improvement.
+    - Simulated Interviews: Provides mock interview sessions with AI-powered interviewers to simulate real-world interview scenarios.
+    - Personalized Learning Paths: Adapts to the user's skill level and learning pace, offering customized study plans and resources.
+    - Benefits : Enhances candidates' readiness for interviews by providing targeted practice and insights into their strengths and weaknesses.
+    Trader Desktop:
+    - **Overview** : Trader Desktop is a sophisticated day trading tool specifically designed for options and futures trading. It provides traders with real-time market data, advanced analytics, and intuitive trading interfaces to make informed trading decisions.
+    -**Features**:
+    - Real-Time Market Data: Access to live market feeds and comprehensive financial data for informed decision-making.
+    - Advanced Charting Tools: Offers a range of technical indicators and charting options to analyze market trends and patterns.
+    - Automated Trading Strategies: Supports the creation and execution of automated trading strategies based on predefined criteria.
+    - Risk Management Tools: Includes features for setting stop-loss and take-profit levels, ensuring effective risk management.
+    - Benefits: Empowers traders with the tools and insights needed to navigate the complexities of options and futures markets effectively.
+    
+    Politicians Dost:
+    - **Overview**: Politicians Dost is a comprehensive social media management tool tailored for politicians and public figures. It helps manage and optimize social media presence across platforms like Facebook, Instagram, and YouTube.
+    - **Features**:
+    - Content Scheduling and Publishing: Allows users to schedule and publish posts across multiple social media platforms from a single dashboard.
+    - Engagement Analytics: Provides detailed insights into audience engagement, reach, and performance metrics for each post.
+    - Social Listening: Monitors social media channels for mentions and trends, enabling timely responses and engagement.
+    - Campaign Management: Supports the planning and execution of social media campaigns, including targeted advertising and promotions.
+    - Benefits: Enhances the social media strategy of politicians by streamlining content management and providing actionable insights to boost engagement and reach.
     """)
 
 # Internships Tab
