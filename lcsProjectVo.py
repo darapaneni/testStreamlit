@@ -31,13 +31,6 @@ elif selection == "Services":
     - **Legal solutions:** Help in Civil litigations, Criminal cases, family disputes, Legal documentations, Legal opinions.
     """)
 
-# Products Tab
-elif selection == "Products":
-    st.title("Products")
-    st.write("""
-    
-    """)
-
 # Internships Tab
 elif selection == "Internships":
     st.title("Internships")
