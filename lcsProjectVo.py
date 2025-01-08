@@ -20,11 +20,9 @@ elif selection == "Services":
     st.title("Services")
     st.write("""
     Our platform offers a range of services including:
-    - **User Management:** User registration and authentication, role-based access control.
-    - **Test Creation and Customization:** Custom tests, predefined question banks, multiple question types.
-    - **Real-Time Coding Assessments:** Integrated code editor, secure sandbox environment.
-    - **Test Delivery and Proctoring:** Unique test links, real-time proctoring, timed assessments.
-    - **Results and Analytics:** Detailed score breakdown, performance comparison, exportable reports.
+    - **On-Job Internships:** Provide opportunity to interns to contribute to our live projects where interns get to work on real-world problems.
+    - **Technology solutions to real estate:** Property documentation etc.
+    - **Legal solutions:** Help in Civil litigations, Criminal cases, family disputes, Legal documentations, Legal opinions.
     """)
 
 # Internships Tab
